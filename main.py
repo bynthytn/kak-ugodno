@@ -10,9 +10,3 @@ for i in files:
             dst = f'{destination}\\{j}'
             src = f'{path}\\{i}\\{j}'
             os.rename(src, dst)
-
-
-
-
-
-
